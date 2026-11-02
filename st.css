@@ -1,0 +1,54 @@
+.container{
+    text-align: center;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+body{
+    background: linear-gradient(to right, #74ebd5, #ACB6E5);
+}
+
+.Skills ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.webseries ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+
+.series-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.series-item img{
+    width: 120px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+
+.series-item p{
+    margin: 8px 0 4px;
+    font-weight: bold;
+}
+
+
+.series-item span{
+    color: gray;
+    font-size: 14px;
+}
